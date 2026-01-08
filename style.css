@@ -1,58 +1,132 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 
 
 }
 
 
-body{
+body {
     background-color: rgba(255, 255, 255, 1);
 }
 
 /* common propert value  */
-.container{
+.container {
     max-width: 1057px;
     margin: 0 auto;
 }
 
 /* nav section css  */
-nav{
-    
+nav {
+
     padding: 34px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container img{
+.container img {
     width: 139px;
     height: 60px;
 }
 
-.container ul{
+.container ul {
     list-style: none;
     display: flex;
     gap: 32px;
 }
 
-.container ul a{
+.container ul a {
     text-decoration: none;
 }
 
-/* button css  */
-.btn{
+/* navbar button css  */
+.btn {
     background-color: #43867f;
     padding: 12px 16px;
     border: none;
     border-radius: 6px;
     color: white;
     cursor: pointer;
-    
-    
+
+
 }
-.btn:hover{
+
+.btn:hover {
     background-color: fuchsia;
+}
+
+/* banner section css  */
+#banner-section {
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.banner-btn-1 {
+    margin-top: 123px;
+    padding: 8px 12px;
+    border-radius: 50px;
+    color: #43867f;
+    border: none;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.banner-btn-1 img {
+    width: 10px;
+
+}
+
+#banner-section h2 {
+    color: white;
+    font-size: 72px;
+    font-weight: 700px;
+}
+
+#banner-section .h2 {
+    color: rgba(48, 184, 104, 1);
+    font-size: 72px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+
+#banner-section p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.banner-btn-2 {
+    background-color: rgba(48, 184, 104, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: white;
+    padding: 16px 46px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 48px;
+    cursor: pointer;
+}
+
+.banner-btn-3{
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: white;
+    padding: 16px 46px;
+    border: none;
+    border-radius: 6px;
+    margin-right: 48px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 1);
 }
