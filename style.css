@@ -155,7 +155,7 @@ nav {
 
 /* card css  */
 .dontfail,
-#second-brain {
+#second-brain, #newsletter {
     margin-bottom: 120px;
 }
 
@@ -249,4 +249,44 @@ nav {
     font-size: 14px;
 
 
+}
+
+.newsletter-parent {
+    text-align: center;
+    background-color: rgba(247, 246, 242, 1);
+    padding: 80px 40px;
+
+}
+.newsletter-parent h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+.newsletter-parent p{
+    line-height: 24px;
+    color: rgba(98, 115, 130, 1);
+    margin-bottom: 24px;
+}
+.newsletter-parent button{
+    margin-bottom: 16px;
+}
+
+/* footer section  */
+.footer{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 25, 49, 1);
+    padding: 120px 120px 10px 120px;
+}
+.footer img{
+    width: 139px;
+    height: 60px;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    margin-bottom: 30px;
 }
