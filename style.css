@@ -26,6 +26,15 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav-ul li a{
+    color: rgba(0, 0, 0, 1);
+}
+
+.nav-ul li a:hover{
+    background-color: lawngreen;
+    padding: 2px 3px;
+    border-radius: 16px;
+}
 
 .container .nav-image {
     width: 139px;
@@ -203,8 +212,13 @@ nav {
     height: 600px;
 }
 
-.second-brain-content {
+.second-brain-content{
     padding: 102px 0;
+
+}
+.second-brain-content ul li{
+    display: flex;
+    align-items: center;
 }
 
 .second-brain-content .TS {
@@ -267,9 +281,28 @@ nav {
     line-height: 24px;
     color: rgba(98, 115, 130, 1);
     margin-bottom: 24px;
+    text-align: center;
 }
 .newsletter-parent button{
     margin-bottom: 16px;
+}
+
+.newsletter-btn{
+    background-color: rgba(48, 184, 104, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: white;
+    padding: 16px 46px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.newsletter-btn:hover{
+    background-color: darkorchid;
+    box-shadow: 0 0 4px 5px darkorchid;
 }
 
 /* footer section  */
